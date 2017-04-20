@@ -17,9 +17,6 @@
 	-moz-transition: all 1s ease;
 	-o-transition: all 1s ease;
 	transition: all 1s ease;
-}
-
-h2, h5, p{
 	color: #777777;
 }
 
