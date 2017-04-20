@@ -1,0 +1,50 @@
+.contenedor{
+	position: absolute;
+	left: 50px;
+	top: 20px;
+}
+
+.box{
+	width: 240px;
+	height: 300px;
+	box-shadow: 8px 10px 14px -8px #CECECE;
+	float: left;
+	text-align: center;
+	background-color: #F4F1F1;
+	padding-top: 30px;
+	margin: 5px;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+}
+
+h2, h5, p{
+	color: #777777;
+}
+
+h2{
+	font-family: 'Raleway', serif;
+}
+
+h5{
+	font-family: 'Roboto', serif;
+	font-style: italic;
+}
+
+p{
+	font-family: 'Raleway', serif;
+	margin: 16px;
+}
+
+span{
+	font-size: 40px;
+}
+
+.box:hover{
+	padding-top: 20px;
+	background-color: #FFFFFF;
+	-webkit-transform: scale(1.1);
+	color: #7AA2F4;
+	-webkit-transition: all 0.5 ease-in-out;
+}
